@@ -4,6 +4,14 @@ public class Triangle {
 
 	private int size;
 
+	
+	public Triangle(int size)
+	{
+		this.size = size;
+		
+	}
+	
+	
 	public int getSize() {
 		return size;
 	}

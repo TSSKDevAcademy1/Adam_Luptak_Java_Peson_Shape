@@ -5,8 +5,9 @@ public class Rectangle {
 	private int width;
 	private int height;
 
-	public Rectangle() {
-
+	public Rectangle(int height,int width) {
+		this.width = width;
+		this.height = height;
 	}
 
 	public int getWidth() {

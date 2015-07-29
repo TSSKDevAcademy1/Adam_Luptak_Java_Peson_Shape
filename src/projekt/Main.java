@@ -18,7 +18,7 @@ public class Main {
 
 		System.out.println(" ");
 		
-		Triangle tr = new Triangle();//vytvori isntanciu  trojuholnik
+		Triangle tr = new Triangle(10);//vytvori isntanciu  trojuholnik
 
 		tr.setSize(10);//nastavi trojuholnik z tr.setSize(pocetriadkov)
 
@@ -34,7 +34,7 @@ public class Main {
 
 		System.out.println(s.toString());//vykresli stvorec
 
-		Rectangle r = new Rectangle();// vytvori novu instaciu  obdlznik
+		Rectangle r = new Rectangle(10,20);// vytvori novu instaciu  obdlznik
 
 		r.setHeight(10);// nastavi vysku obdlaznika
 		r.setWidth(20);// nastavi sirku obdlznika

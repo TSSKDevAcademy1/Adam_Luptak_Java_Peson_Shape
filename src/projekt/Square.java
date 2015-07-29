@@ -7,9 +7,15 @@ public class Square {
 	 * podla size
 	 * 
 	 */
-
+	
+	
+	
 	private int size;
 
+	  
+	
+	
+	
 	public int getSize() {
 		return size;
 	}
